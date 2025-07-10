@@ -11,7 +11,6 @@ providers: [
     },
     async authorize(credentials) {
       const { email, password } = credentials;
-      console.log(email, password)
       try {
         const clint = await clientPromise;
         const db = clint.db("Linktree");
