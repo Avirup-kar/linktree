@@ -86,7 +86,7 @@ const result2 = await res.json()
             <div className="w-[155px] h-[1px] bg-gray-500 mt-1.5"></div>
           </div>
           <div className="w-[350px] my-5">
-          <button onClick={()=>{alert("This feature is not available right now filout the top details")}} className="shadow-2xl  text-black flex justify-center items-center shadow-black py-1 text-xl w-full rounded-2xl cursor-pointer">
+          <button onClick={()=>{alert("This feature is not available right now fill out the top details")}} className="shadow-2xl  text-black flex justify-center items-center shadow-black py-1 text-xl w-full rounded-2xl cursor-pointer">
               <img className="h-[45px] w-[45px]" src="/google.webp" alt=""/><span className="text-black">oogle</span>
             </button>
           </div>
@@ -97,5 +97,6 @@ const result2 = await res.json()
     </>
   );
 };
+
 
 export default Signupcompo;
