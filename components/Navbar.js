@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const { data: session } = useSession();
   return (
-    <nav className=" flex justify-between bg-white w-[89vw] left-[5.5vw] rounded-full fixed top-12 p-2.5 pl-11">
+    <nav className=" flex justify-between bg-white w-[89vw] left-[5.4vw] rounded-full fixed top-12 p-2.5 pl-11">
       <div className="flex items-center gap-15">
         <svg
           className="w-30"
